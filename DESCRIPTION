@@ -1,10 +1,10 @@
 Package: math
 Type: Package
-Title: containg functions of lab1-4 (Title Case)
+Title: containg functions of lab1-8 (Title Case)
 Version: 0.1.0
 Author: Zhifeng Yang
 Maintainer: The package maintainer <Zhifeng.Yang@ou.edu>
-Description: This function is used for statistics analysis in lab1-4
+Description: This function is used for statistics analysis in lab1-8
 License: What license is it under?
 Encoding: UTF-8
 LazyData: true
