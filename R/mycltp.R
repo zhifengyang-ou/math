@@ -8,7 +8,7 @@
 #' @return histogram of simulating and theoretic distribution
 #' @export
 #'
-#' @examples mycltp(n=10,iter=10000,lambda=5)
+#' @examples windows();mycltp(n=10,iter=10000,lambda=5)
 mycltp=function(n,iter,lambda=10,...){
 
   ## r-random sample from the Poisson
@@ -47,4 +47,5 @@ mycltp=function(n,iter,lambda=10,...){
   x=0:max(y)
   plot(x,dpois(x,lambda=lambda),type="h",lwd=5,col=rainbow(max(y)),
        main="Probability function for Poisson", ylab="Probability",xlab="y")
+  layout(1)
 }

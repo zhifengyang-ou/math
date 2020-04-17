@@ -22,5 +22,5 @@ histogram of simulating and theoretic distribution
 Simlulate the Central limit theory using Poisson distribution
 }
 \examples{
-mycltp(n=10,iter=10000,lambda=5)
+windows();mycltp(n=10,iter=10000,lambda=5)
 }
