@@ -20,5 +20,5 @@ a plot contain the normal density and shading area, also, the probability of x< 
 plot the normal density and shade the area of P(x<a)
 }
 \examples{
-mycurve(1,2,a=3)
+myncurve(1,2,a=3)
 }

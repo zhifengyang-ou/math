@@ -7,7 +7,7 @@
 #' @return a plot contain the normal density and shading area, also, the probability of x< a is also printed
 #' @export
 #'
-#' @examples mycurve(1,2,a=3)
+#' @examples myncurve(1,2,a=3)
 myncurve = function(mu, sigma,a=a){
   curve(dnorm(x,mean=mu,sd=sigma), xlim = c(mu-3*sigma, mu + 3*sigma),ylab ="Normal density")
   # x values corresponding to the x - cords of points on the curve
